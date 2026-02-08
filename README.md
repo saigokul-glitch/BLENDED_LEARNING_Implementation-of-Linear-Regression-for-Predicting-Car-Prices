@@ -31,8 +31,8 @@ To write a program to predict car prices using a linear regression model and tes
 ```
 /*
  Program to implement linear regression model for predicting car prices and test assumptions.
-Developed by: DEVENDRAN . G
-RegisterNumber: 212225240030
+Developed by: SAIGOKUL K
+RegisterNumber: 212225240131
 
 import pandas as pd
 import numpy as np
@@ -62,8 +62,8 @@ model.fit(x_train_scaled,y_train)
 y_pred = model.predict(x_test_scaled)
 # Model coefficients and metrics
 # print("="*50)
-print('Name:devendran.G ')
-print('Reg no:212225240030 ')
+print('Name:saigokul.k ')
+print('Reg no:212225240131 ')
 print("MODEL COEFFICIENTS:")
 for feature, coef in zip(x.columns, model.coef_):
     print(f"{feature:>12}: {coef:>10.2f}")
